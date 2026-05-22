@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+
+<div class="encabezado">
+  <img src="img/logo-cine.png" width="120" height="120">
+  <div class="navegacion">
+    <a href="#cartelera">Cartelera</a>
+    <a href="#proximas">Próximas</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+</div>
+
+<div class="principal">
+
+  <h2>Bienvenidos al Cine Club ENP6</h2>
+  <h1>La cartelera de esta semana</h1>
+
+  <p>Cada viernes a las 15:00 en el Auditorio Sur.<br><br>
+  Entrada libre para estudiantes con credencial vigente.<br><br>
+  Palomitas incluidas.</p>
+
+  <div id="cartelera">
+
+    <div class="pelicula">
+      <img src="img/metropolis.jpg" width="300" height="420">
+      <h3>Metrópolis</h3>
+      <p>Fritz Lang · 1927 · Alemania · 153 min</p>
+      <p><b>Género:</b> Ciencia ficción · Expresionismo alemán</p>
+      <p>Una ciudad futurista dividida entre una élite que vive en torres relucientes
+      y trabajadores que operan maquinaria en las profundidades de la tierra.</p>
+      <p><b>Por qué verla:</b> La película que inventó la ciencia ficción visual.
+      Todo lo que conoces del género empezó aquí.</p>
+    </div>
+
+    <div class="pelicula">
+      <img src="img/todo-sobre-mi-madre.jpg" width="300" height="420">
+      <h3>Todo sobre mi madre</h3>
+      <p>Pedro Almodóvar · 1999 · España · 101 min</p>
+      <p><b>Género:</b> Drama</p>
+      <p>Una enfermera viaja a Barcelona tras la muerte de su hijo para encontrar
+      al padre que nunca lo conoció.</p>
+      <p><b>Por qué verla:</b> Ganó el Oscar a mejor película extranjera.
+      Una de las mejores películas en español de todos los tiempos.</p>
+    </div>
+
+    <div class="pelicula">
+      <h3>Parásitos</h3>
+      <p>Bong Joon-ho · 2019 · Corea del Sur · 132 min</p>
+      <p><b>Género:</b> Thriller · Drama social</p>
+      <p>Dos familias de clases opuestas se entrelazan en una historia que empieza
+      como comedia y termina en algo completamente diferente.</p>
+      <p><b>Por qué verla:</b> Primera película no angloparlante en ganar el Oscar
+      a mejor película.</p>
+    </div>
+
+  </div>
+
+  <div id="proximas">
+    <h3>Próximas proyecciones</h3>
+    <center>
+      <p>Noviembre: Ciclo Kubrick — El resplandor, 2001: Odisea del espacio, La naranja mecánica</p>
+      <p>Diciembre: Ciclo Studio Ghibli — Mi vecino Totoro, El castillo en el cielo, La princesa Mononoke</p>
+    </center>
+  </div>
+
+  <div id="nosotros">
+    <h3>Quiénes somos</h3>
+    <p>El Cine Club ENP6 nació en 2019 como un espacio para ver, discutir y aprender
+    cine más allá de lo comercial. Seleccionamos películas que amplíen la perspectiva
+    y generen conversación.</p>
+    <p>Si quieres proponer una película o unirte al comité de selección, escríbenos.</p>
+  </div>
+
+  <div id="contacto">
+    <h3>Contáctanos</h3>
+
+    <form method="get" action="#">
+
+      Nombre:
+      <input type="text" name="nombre" placeholder="Tu nombre completo" required>
+
+      Correo:
+      <input type="email" name="email" placeholder="tu@correo.com" required>
+
+      <label for="tipo">¿Para qué nos escribes?</label>
+      <select id="tipo" name="tipo" required>
+        <option value="">— Selecciona —</option>
+        <option value="propuesta">Proponer una película</option>
+        <option value="unirse">Unirme al comité</option>
+        <option value="otro">Otro</option>
+      </select>
+
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje"
+                rows="4" minlength="10" maxlength="400"
+                placeholder="Escribe tu mensaje aquí..."
+                required></textarea>
+
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpiar</button>
+
+    </form>
+  </div>
+
+</div>
+
+<div class="pie">
+  <p>Cine Club ENP6 · Escuela Nacional Preparatoria No. 6 "Antonio Caso" · UNAM</p>
+  <p>Contacto: cineclub@enp6.unam.mx</p>
+</div>
+
+</body>
+</html>

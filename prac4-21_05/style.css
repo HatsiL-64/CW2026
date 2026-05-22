@@ -1,0 +1,49 @@
+table, th, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+*{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+.integrantes{
+    background-color: #FF7559;
+}
+#nota{
+    position: sticky;
+    background-color: greenyellow;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    left: 100%;
+}
+#tablaColores{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+}
+#HatsiColor{
+    background-color: red;
+}
+#HatsiColor:hover{
+    background-color: black;
+    color: red;
+}
+#AxelColor{
+    background-color: red;
+}
+#MontseColor{
+    background-color: green;
+}
+#InesColor{
+    background-color: lightblue;
+}
+
+@media screen and (max-width: 1000px){
+    body{
+        background-color: yellow;
+    }
+}
